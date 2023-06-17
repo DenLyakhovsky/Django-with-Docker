@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div>{{ info_user.name.upper }} {{ info_user.last_name }}</div>
+    <br>
+    <div>Your <b>ID</b> - {{ info_user.id }}</div>
+    <br>
+    <div><b>PATH</b> - {{ request.path }}</div>
+    <br>
+    <p>User ID: {{ request.COOKIES.user_id }}</p>
+</body>
+</html>
