@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+
+    font-size: 15px;
+    line-height: 1.6;
+    color: black;
+}
+
+.intro__inner {
+    text-align: center;
+}
+
+.card-header{
+    text-align: center;
+}
+
+.media{
+    padding-bottom: 35px;
+} 

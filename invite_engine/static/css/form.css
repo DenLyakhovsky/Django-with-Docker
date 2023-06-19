@@ -1,0 +1,13 @@
+.form-part {
+    align-items: center;
+    margin: 50px 300px 40px 230px;
+}
+
+.form-group {
+    background-color: aquamarine;
+}
+
+#id_name,
+#id_last_name {
+    align-items: center;
+}

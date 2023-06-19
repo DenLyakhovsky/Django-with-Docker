@@ -1,0 +1,46 @@
+body {
+    margin: 0 auto;
+    background-color: aqua;
+}
+
+
+/* DETAIL */
+.detail {
+    padding-top: 100px;
+}
+
+.detail-holder {
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail-right {
+    padding-left: 50px;
+}
+
+.detail-price {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.detail-title {
+    padding-top: 15px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.detail-content {
+    padding-top: 50px;
+    line-height: 150%;
+    display: list-item;
+}
+
+.detail-button {
+    padding-left: 25px;
+    padding-top: 190px;
+}
+
+.btn-secondary {
+    text-transform: uppercase;
+}
