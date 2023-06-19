@@ -54,5 +54,6 @@ class InfoAboutUser(DetailView):
         return context
 
 
+# View для WebSockets
 def room(request, room_name):
     return render(request, "invite/room.html", {"room_name": room_name})
